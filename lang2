@@ -1,0 +1,14 @@
+#!/bin/bash
+
+CURR_LANG="$(setxkbmap -print | grep xkb_symbols | awk '{print $4}' | awk -F"+" '{print $2}')"
+US="us"
+DE="ir"
+
+if [ $CURR_LANG == $US ]
+then
+	setxkbmap ir 
+    notify-send 'Current Keyboard Layout: Persian (Farsi)'
+else
+	setxkbmap us
+    notify-send 'Current Keyboard Layout: US (English)'
+fi
