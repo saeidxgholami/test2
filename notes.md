@@ -11,3 +11,9 @@ Install new kernel and rebuild it
 ```
 config grub
 `grub-mkconfig -o /boot/grub/grub.cfg`
+
+### Fix Keyring Problem
+```
+# pacman -Sy archlinux-keyring
+# pacman -Sy
+```
