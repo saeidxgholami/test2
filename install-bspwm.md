@@ -23,5 +23,5 @@ $ mkdir ~/.config/sxhkd
 
 **Install necessary packages**
 ```
-# pacman -S picom termite dmenu git base-devl wget python code chromium 
+# pacman -S picom termite dmenu git base-devel wget python code chromium 
 ```
