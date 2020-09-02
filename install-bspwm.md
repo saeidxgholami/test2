@@ -23,6 +23,6 @@ $ mkdir ~/.config/sxhkd
 
 **Install necessary packages**
 ```
-# pacman -S picom termite dmenu git base-devel wget python code chromium \
+# pacman -S feh picom termite dmenu base-devel wget git python python-pip code chromium \
             noto-fonts-emoji unizp
 ```
