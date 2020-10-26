@@ -36,4 +36,4 @@ lsblk --fs
 copy code for dev/sda1 and past on xxxxxxxxxxxxxx
 
 ### Creating live usb for my old pc
-Use old version of Rufus like 2.5 on a USB 2.0
+Use old version of Rufus like 2.5 with archlinux 2020.02.01
