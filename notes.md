@@ -1,11 +1,10 @@
 ### Fix loading inital ramdisk ...
-Load to arch with live usb
 ```
+Load to arch with live usb
 # mount /dev/sda1 /mnt
 # arch-chroot /mnt
 
 Install new kernel and rebuild it
-
 # pacman -S linux-lts
 # mkinitcpio -P
 
@@ -35,3 +34,6 @@ fi
 ```
 lsblk --fs 
 copy code for dev/sda1 and past on xxxxxxxxxxxxxx
+
+### Creating live usb for my old pc
+Use old version of Rufus like 2.5 on a USB 2.0
